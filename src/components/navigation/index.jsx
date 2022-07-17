@@ -11,6 +11,9 @@ const Navigation = () => {
                 <li className="nav-item">
                     <Link to="/" className="nav-link"> Todos </Link>
                 </li>
+                <li className="nav-item">
+                    <Link to="/weather" className="nav-link button"> Weather </Link>
+                </li>
             </ul>
         </nav>
     </header>

@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import httpService from '../../services/httpService'
 
-let todoserverurl = "http://localhost:4000/api";
+let todoserverurl = process.env.REACT_APP_TODO_API_URL;
 
 export const fetchTodos = createAsyncThunk('todos/fetchtodos', async () => {
     let todos = await httpService.get(`${todoserverurl}/todos/`)
