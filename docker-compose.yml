@@ -1,0 +1,8 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  hellowroldappfrontend:
+    container_name: hellowroldappfrontend
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
