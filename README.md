@@ -16,3 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
     - Weather Based on location
     - Todo Task management
     - getting posts from graphql api
+    
+![Alt text](/screenshot/todo.png "todo image")
+![Alt text](/screenshot/weather.png "weather image")
+![Alt text](/screenshot/graphql.png "graphql image")
