@@ -15,3 +15,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Features
     - Weather Based on location
     - Todo Task management
+    - getting posts from graphql api
