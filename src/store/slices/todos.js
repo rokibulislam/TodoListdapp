@@ -18,7 +18,7 @@ export const addTodo = createAsyncThunk('todos/addTodo', async ( { title } ) => 
 export const completeTodo = createAsyncThunk('todos/completeTodo', async (item) => {
     let todo = await httpService.put(`${todoserverurl}/todos/${item.id}`, {
         title: item.title,
-        completed: !item.complete
+        completed: !item.completed
     })
     return todo.data
 })
